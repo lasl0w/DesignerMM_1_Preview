@@ -20,5 +20,8 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+        ContentView()
+            .preferredColorScheme(.dark)
+        // and a one-line mod to achieve dark mode
+    
 }
